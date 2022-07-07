@@ -1,0 +1,226 @@
+th{
+
+    left: 100px;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width:100%;
+    font-size: 30%;
+}
+
+.imagen-1{
+
+    border-radius: 100%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 10%;
+
+}
+.imagen-2{
+
+    
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 5%;
+
+}
+.imagen-3{
+
+     padding: 24px 26px;
+    margin: 0px ;
+    width: 7%;
+    height:35%;
+    position: relative;
+
+}
+
+.taquiza{
+     border: 3px solid;
+     border-color: white;
+     
+border-radius:50%;
+    height:35%;
+    margin: 2% ;
+    width:15%;
+    position: relative;
+
+}
+.taquiza:hover{
+    opacity: 0.6;
+
+}
+.sushi-15{
+    border: 3px solid;
+     border-color: white;
+border-radius:50%;
+    height:35%;
+    margin: 2% ;
+    width: 15%;
+    position: relative;
+
+}
+.sushi-15:hover{
+    opacity: 0.6;
+    
+}
+.music{
+    border: 3px solid;
+     border-color: white;
+border-radius:50%;
+    height:35%;
+    margin: 2% ;
+    width: 15%;
+    position: relative;
+
+}
+.music:hover{
+    opacity: 0.6;
+    
+}
+.entre{
+    border: 3px solid;
+     border-color: white;
+border-radius:50%;
+    height:35%;
+    margin: 2% ;
+    width: 15%;
+    position: relative;
+
+}
+.entre:hover{
+    opacity: 0.6;
+    
+}
+.puestos{
+    border: 3px solid;
+     border-color: white;
+border-radius:50%;
+    height:35%;
+    margin: 2% ;
+    width: 15%;
+    position: relative;
+
+}
+.puestos:hover{
+    opacity: 0.6;
+    
+}
+.h{
+    border: 3px solid;
+     border-color: white;
+      width: 80%;
+}
+.l{
+    border: 3px solid;
+     border-color: white;
+      width: 80%;
+}
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:100% 100%;
+  }
+     html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #efb810;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+ .hola{
+       
+    
+       
+        margin: 0 auto;
+        margin-top: 0%;
+          padding:0px 0px;
+ 
+    }
+    
+ul {
+    text-align: center;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  width: 100%;
+  background-color: #efb810;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color:#efb810;
+
+}
+
+
